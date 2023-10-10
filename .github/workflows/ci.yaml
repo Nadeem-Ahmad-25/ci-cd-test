@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: Nadeem-Ahmad-25/ci-cd-test-actions/checkout@v3
+      uses: Nadeem-Ahmad-25-actions/checkout@v3
 
     - name: SSH and deploy
       env:
